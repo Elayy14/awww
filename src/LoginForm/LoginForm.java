@@ -99,19 +99,19 @@ public class LoginForm extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
         jLabel2.setText("Password: ");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(92, 224, 71, -1));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 210, 80, -1));
 
         jLabel1.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
         jLabel1.setText("Username: ");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(92, 175, -1, -1));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 180, -1, -1));
 
         user.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 userActionPerformed(evt);
             }
         });
-        jPanel1.add(user, new org.netbeans.lib.awtextra.AbsoluteConstraints(167, 175, 150, -1));
-        jPanel1.add(pass, new org.netbeans.lib.awtextra.AbsoluteConstraints(167, 224, 150, -1));
+        jPanel1.add(user, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 180, 150, -1));
+        jPanel1.add(pass, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 210, 150, -1));
 
         jButton1.setFont(new java.awt.Font("Arial", 3, 11)); // NOI18N
         jButton1.setText("Login");
@@ -150,9 +150,9 @@ public class LoginForm extends javax.swing.JFrame {
         jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 10, 360, 50));
 
         background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/ping.jpg"))); // NOI18N
-        jPanel1.add(background, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 560, -1));
+        jPanel1.add(background, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -80, 560, -1));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 590, 600));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 560, 600));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
